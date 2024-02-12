@@ -25,7 +25,7 @@ const About = () => {
                 Web and Mobile App Development
               </h1>
               <div>
-                <p className="pr-0 md:pr-7  text-center md:text-left text-black">
+                <p className="paragraph pr-0 md:pr-7  text-center md:text-left text-black">
                   Your web and mobile Apps are pieces of the puzzle to grow your
                   business. We use frameworks which tailor content and
                   engagement methods to respond to different intents shown by
@@ -57,7 +57,7 @@ const About = () => {
                 Digital Strategy Consulting
               </h1>
               <div>
-                <p className="pl-0 md:pl-7 text-center md:text-left text-black">
+                <p className="paragraph light pl-0 md:pl-7 text-center md:text-left text-black">
                   Your digital strategy should complement the overall marketing
                   strategy of the company. In online marketing, each component
                   will never work in isolation and every business needs a

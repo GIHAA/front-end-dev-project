@@ -3,12 +3,16 @@ import background from "../assets/images/background.png";
 import { Link } from "react-scroll";
 import Button from "./common/Botton";
 
-const Landing = () => {
+const Hero = () => {
   return (
     <div className="pt-20 ">
       <div className=" relative">
-        <img src={background} loading="lazy" className="w-full h-full" alt="background" />
-
+        <img
+          src={background}
+          loading="lazy"
+          className="w-full h-full"
+          alt="background"
+        />
         <div
           data-aos="fade-right"
           class="bg-gradient-to-r sm:relative md:relative lg:absolute lg:bottom-8 lg:left-10 from-green-400 to-blue-500 p-4 lg:w-1/2 "
@@ -29,4 +33,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Hero;

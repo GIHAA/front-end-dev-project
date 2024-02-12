@@ -1,4 +1,4 @@
-import Landing from "./components/Landing";
+import Hero from "./components/Hero";
 import Navbar from "./components/common/Navbar";
 import About from "./components/About";
 import React, { useEffect } from "react";
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Landing />
+      <Hero />
       <About />
       <Footer />
     </>
