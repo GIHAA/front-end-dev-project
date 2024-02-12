@@ -17,3 +17,57 @@
         @apply cursor-pointer;
     }
 }
+
+
+h1 {
+  line-height: 120%;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 27px;
+  line-height: 33px;
+}
+p.paragraph{
+    font-size: 16px;
+    line-height: normal;
+}
+p.title {
+  font-size: 21px;
+  line-height: normal;
+}
+
+p.subTitle , li {
+  font-size: 14px;
+  line-height: normal;
+}
+
+@media (min-width: 375px) {
+  h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.medium {
+  font-weight: 500;
+}
+.light {
+  font-weight: 400;
+}
