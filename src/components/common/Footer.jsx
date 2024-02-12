@@ -5,8 +5,8 @@ import { Technologies_details } from "../../data/technologies";
 
 const Footer = () => {
   return (
-    <div className="bg-[#6B3CC9] text-white ">
-      <div className="grid  lg:grid-cols-4 xl:grid-cols-4  sm:grid-cols-2 md:grid-cols-2 gap-4 bg-[#6B3CC9] pt-10 pr-10 pl-10 pb-8">
+    <div className="bg-primary text-white ">
+      <div className="grid  lg:grid-cols-4 xl:grid-cols-4  sm:grid-cols-2 md:grid-cols-2 gap-4 bg-primary pt-10 pr-10 pl-10 pb-8">
         <div className="sm:col-span-3  md:col-span-2 lg:col-span-2  xl:col-span-2  col-span-2 mt-7">
           <div>
             <img src={logo} alt="CompanyLogo" style={{ width: "220px" }} />

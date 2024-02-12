@@ -21,7 +21,7 @@ const About = () => {
               />
             </div>
             <div data-aos="fade-left" className="flex flex-col ">
-              <h1 className=" pb-3 text-[27px] md:text-left text-center font-bold text-[#6B3CC9] ">
+              <h1 className=" pb-3 text-[27px] md:text-left text-center font-bold text-primary">
                 Web and Mobile App Development
               </h1>
               <div>
@@ -53,7 +53,7 @@ const About = () => {
               data-aos="fade-right"
               className="md:text-right order-2 md:order-1"
             >
-              <h1 className="pl-0 md:pl-7 pb-3 text-[27px] md:text-left text-center font-bold text-[#6B3CC9] ">
+              <h1 className="pl-0 md:pl-7 pb-3 text-[27px] md:text-left text-center font-bold text-primary">
                 Digital Strategy Consulting
               </h1>
               <div>

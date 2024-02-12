@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div   className="fixed w-full text-white h-[80px] flex justify-between items-center px-4 bg-[#6B3CC9] z-50">
+    <div   className="fixed w-full text-white h-[80px] flex justify-between items-center px-4 bg-primary z-50">
       <div>
         <img src={logo} alt="logo" style={{ width: "150px" }} />
       </div>
@@ -30,14 +30,14 @@ const Navbar = () => {
       </ul>
 
       <div onClick={handleClick} className="md:hidden z-10">
-        {!navOverlay ? <FaBars /> : <FaTimes />}
+        {!navOverlay ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
 
       <ul
         className={
           !navOverlay
             ? "hidden"
-            : "z-50 fixed top-0 left-0 w-full h-screen bg-[#6B3CC9] flex flex-col justify-center items-center "
+            : "z-50 fixed top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center "
         }
       >
         {Header_details.map((item, index) => {
