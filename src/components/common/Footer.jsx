@@ -48,12 +48,12 @@ const Footer = () => {
       </div>
 
       <div class="flex items-center justify-center pt-3 pb-5">
-        <div class="pr-9">
-          <a href="/privacy-policy">Privacy Policy</a>
+        <div class="pr-9 ">
+          <a href="/privacy-policy" className=" text-[14px] md:text-[16px]">Privacy Policy</a>
         </div>
         <div>|</div>
         <div class="pl-9">
-          <a href="/terms-and-conditions">Terms &amp; Conditions</a>
+          <a href="/terms-and-conditions" className="text-[14px] md:text-[16px]">Terms &amp; Conditions</a>
         </div>
       </div>
     </div>
