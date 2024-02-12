@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 const App = () => {
 
   useEffect(() => {
-    Aos.init({ offset: 0, duration: 2000 })
+    Aos.init({ offset: 0, duration: 1300 })
     window.addEventListener('load', Aos.refresh)
   }, [])
 
