@@ -17,7 +17,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" style={{ width: "150px" }} />
       </div>
 
-      <ul data-aos="fade-left" className="hidden md:flex">
+      <ul  className="hidden md:flex">
         {Header_details.map((item, index) => {
           return (
             <li key={index} className="px-4">

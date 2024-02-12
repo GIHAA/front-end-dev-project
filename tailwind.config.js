@@ -13,7 +13,7 @@ module.exports = {
         Bebas: ["Kdam Thmor Pro"],
       },
       colors: {
-
+        new: "#FF6363",
       },
     },
   },
