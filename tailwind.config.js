@@ -13,7 +13,16 @@ module.exports = {
         Bebas: ["Kdam Thmor Pro"],
       },
       colors: {
-        new: "#FF6363",
+        primary: "#6B3CC9",
+        secondary: "#F28D35",
+        Analogous1 : "#6A44F2",
+        Analogous2 : "#F24444",
+        Triadic: "#52378Ci",
+        textdark : "#2F2F2Fi",
+        textlight : "#535A75",
+        textgray : "#9C9991",
+        error : "#FF0335i",
+        success : "#5EB30B"
       },
     },
   },
