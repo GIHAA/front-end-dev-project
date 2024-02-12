@@ -65,7 +65,7 @@ const About = () => {
                   overview to find the most efficient model for your business.
                 </p>
               </div>
-              <div className="flex pl-7 justify-center md:justify-start">
+              <div className="pl-0 md:pl-7 justify-center md:justify-start">
                 <Button>
                   <Link to="targetSection">Learn More</Link>
                 </Button>

@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <div className="pt-20 ">
       <div className=" relative">
-        <img src={background} className="w-full h-full" alt="background" />
+        <img src={background} loading="lazy" className="w-full h-full" alt="background" />
 
         <div
           data-aos="fade-right"
